@@ -1,1 +1,22 @@
 
+main.js
+
+import MyPokemon from './pokemon.js'
+
+const pikachu = new MyPokemon('Pikachu')
+pikachu.sayHello()
+package.json
+
+{
+  "name": "esm-syntax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
